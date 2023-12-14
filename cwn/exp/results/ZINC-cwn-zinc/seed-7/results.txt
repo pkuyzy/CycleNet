@@ -1,0 +1,18 @@
+========== Result ============
+Dataset:        ZINC
+------------ Best epoch -----------
+Train:          0.01812695898115635
+Validation:     0.07437992841005325
+Test:           0.06943252682685852
+Best epoch:     260
+------------ Last epoch -----------
+Train:          0.00988643616437912
+Validation:     0.07509133219718933
+Test:           0.06905727833509445
+-------------------------------
+
+========== Params ============
+Total Parameters:        1736705
+========== Running Time ============
+Every epoch:        11.057940272317417
+Namespace(batch_size=128, dataset='ZINC', device=0, drop_position='lin2', drop_rate=0.0, dump_curves=True, early_stop=True, emb_dim=128, epochs=1000, eval_metric='mae', exp_name='cwn-zinc', final_readout='sum', flow_classes=3, flow_points=400, fold=None, folds=None, fully_orient_invar=False, graph_norm='bn', indrop_rate=0.0, init_method='sum', iso_eps=0.01, jump_mode=None, lr=0.001, lr_scheduler='ReduceLROnPlateau', lr_scheduler_decay_rate=0.5, lr_scheduler_decay_steps=50, lr_scheduler_min=1e-05, lr_scheduler_patience=20.0, max_dim=2, max_ring_size=18, minimize=True, model='embed_sparse_cin', nonlinearity='relu', num_layers=4, num_workers=0, paraid=0, preproc_jobs=32, readout='sum', readout_dims=(0, 1, 2), result_folder='/home/yzy/GNN/cwn-main/exp/results', seed=7, simple_features=False, start_seed=0, stop_seed=9, task_type='regression', test_orient='default', train_eval_period=20, train_orient='default', tune=False, untrained=False, use_coboundaries='True', use_edge_features=True)

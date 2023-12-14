@@ -1,0 +1,8 @@
+python training_suite.py --model Dist2Cycle --rawdataset raw_data/2D/EX_Alpha_D2_HDim2_k10 --datasetpath datasets/2D/LAZY_EX_Alpha_D2_HDim2_k10_boundary_1HD_Lfunc_k10_7_6_0.0 --modelparams model_params.json --savedir models/CUSTOM_MODEL
+Test loss pts_10_filtV_0.009539513339177935_cid_0: 0.2835591435432434
+Test loss pts_121_filtV_0.006038511349443842_cid_0: 0.09125001728534698
+Test loss pts_10_filtV_0.04705371014586267_cid_1: 0.11655618250370026
+Test loss pts_10_filtV_0.015053105057652505_cid_1: 0.07627484947443008
+Test loss pts_121_filtV_0.05378847009435331_cid_1: 0.07164312154054642
+Test loss pts_121_filtV_0.015225870139233516_cid_1: 0.09192716330289841
+*** Mean test loss: 0.12186841294169426 ***
